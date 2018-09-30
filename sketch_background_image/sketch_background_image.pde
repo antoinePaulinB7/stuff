@@ -1,8 +1,8 @@
-PImage img = loadImage("endless-shapes.jpg");
-
 void setup(){
   fullScreen();
   background(0);
+  
+  PImage img = createImage(1920,1080,RGB);
   
   img.loadPixels();
   
